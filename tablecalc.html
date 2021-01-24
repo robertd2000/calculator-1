@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table align="center" cellspacing='0'>
+      <tr>
+        <td><button id="seven" value="7" onclick="calc(event)">7</button></td>
+        <td><button id="eight" value="8" onclick="calc(event)">8</button></td>
+        <td><button id="nine" value="9" onclick="calc(event)">9</button></td>
+        <td><button class="ope" id="mult" value="*">*</button></td>
+      </tr>
+      <tr>
+        <td><button id="four" value="4" onclick="calc(event)">4</button></td>
+        <td><button id="five" value="5" onclick="calc(event)">5</button></td>
+        <td><button id="six" value="6" onclick="calc(event)">6</button></td>
+        <td><button class="ope"  id="minus" value="-">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="one" value="1" onclick="calc(event)">1</button></td>
+        <td><button id="two" value="2" onclick="calc(event)">2</button></td>
+        <td><button id="three" value="3" onclick="calc(event)">3</button></td>
+        <td><button class="ope"  id="plus" value="+">+</button></td>
+      </tr>
+      <tr>
+        <td><button id="zero" value="0" onclick="calc(event)">0</button></td>
+        <td><button class="c" id="rem" value="c">C</button></td>
+        <td><button class="ope"  id="delit" value="/">/</button></td>
+        <td><button class="ope"  id="res">=</button></td>
+      </tr>
+    </table>
+    <div class="cent">
+      <input id="start" type="number" value="" />
+      <input id="op" type="text" value="" />
+      <input id="end" type="number" value="" />
+      <p id="sum">Result = 0</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
